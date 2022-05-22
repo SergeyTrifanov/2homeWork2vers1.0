@@ -36,6 +36,7 @@ public class GryffindorStudent extends HogwartsStudent{
         this.bravery = bravery;
     }
 
+
     public void compareGryffindor(GryffindorStudent gryffindorStudent){
         int ability1 = ability();
         int ability2 = gryffindorStudent.ability();
